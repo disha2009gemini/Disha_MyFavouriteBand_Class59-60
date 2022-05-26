@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 400px;
+}
+
+.menu{
+    font-family:Verdana;
+    top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.links{
+    float: center;
+    color:rgb(219, 216, 46);
+    padding-right: 25px;
+    padding-left: 33px;
+    display: inline;
+    font-size: 20px;
+}
+
+.contact_1 h3{
+    display: inline;
+}
+
+.links:hover{
+    background-color:crimson
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
